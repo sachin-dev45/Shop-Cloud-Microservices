@@ -10,7 +10,6 @@ import com.shopping.order.service.OrderService;
 
 @RestController
 @RequestMapping("/orders")
-@CrossOrigin(origins = "http://localhost:3000")
 public class OrderController {
 
     @Autowired
